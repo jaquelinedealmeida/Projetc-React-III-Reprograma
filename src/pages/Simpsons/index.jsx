@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Menu from '../../componentes/Menu'
+import Footer from '../../componentes/Footer'
 
 import Axios from 'axios'
 import './styles.css'
@@ -36,6 +37,8 @@ const Simpsons = () => {
                })}
                 <button onClick={ligaClique}>Clique para trocar de personagem</button>
             </div>
+
+            <Footer/>
         </>
             
         )

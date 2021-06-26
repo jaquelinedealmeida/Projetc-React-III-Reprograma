@@ -3,11 +3,11 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    background-color: wheat;
+    background-color: rgb(247, 228, 206);
 }
 
 .main-simpson .card{
-    background-color: wheat;
+    background-color: rgb(247, 228, 206);
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -19,23 +19,30 @@
 .main-simpson .card img{
     width: 50%;
     height: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.main-simpson .card h2{
-    color:#4f2158;
+.main-simpson .card p{
+    color: chocolate;
+    font-size: 2rem;
+    padding-top: 15px;
+   
 }
 
 
 .main-simpson button {
-    background-color: black;
+    background-color: rgb(167, 18, 110);
     border: none;
-    color: white;
+    border-radius: 10px;
+    color: rgb(238, 206, 219);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    margin-top: 20px;
     cursor: pointer;
 }
 

@@ -8,11 +8,14 @@
 .menu li {
     margin-left: 4rem;
     list-style: none;
+    
 }
 
 .link {
-    color: wheat;
+    font-size: 1.2rem;
+    color: rgb(245, 230, 166);
     text-decoration: none;
+    padding: 5rem;
 }
 
 @media (max-width:768px){
