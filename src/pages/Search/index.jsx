@@ -60,13 +60,10 @@ const Search = () => {
                 <p>{usuario.name}</p>
                 </div>
             
-               <input placeholder="Encontre um repositório do GitHub"  onChange={e=>{setBusca(e.target.value)}}/>
+               <input  type ="text" placeholder="Encontre um repositório do GitHub"  onChange={e=>{setBusca(e.target.value)}}/>
           
-            
-           
-               
             </div>
-             <Footer/>
+            <Footer/>
         </>
      
         )

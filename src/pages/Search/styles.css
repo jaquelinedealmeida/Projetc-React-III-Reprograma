@@ -44,7 +44,7 @@ li.repos {
 }
 
 input {
-    color:rgb(165, 101, 138);
+    
     width: 89%;
     padding: 1.5rem;
     border-radius: .5em;
@@ -53,8 +53,8 @@ input {
 
 }
 
-button {
-    display: inline;
+::placeholder {
+    color: rgb(189, 139, 155);
 }
 
 .main-search  img {

@@ -1,14 +1,22 @@
 .footer {
-    margin: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   padding-top: 1.5rem;
+  text-align: center;
 }
 
-.footer img {
-margin: 0rem;
- align-items: center;
- justify-content: flex-end;
- 
+.footer p {
+    font-size: 1.1rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    
    
 }
+
+.bio p {
+    font-size: 1rem;
+    
+}
+
+
+
+
+ 

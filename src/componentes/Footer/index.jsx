@@ -9,9 +9,15 @@ const Footer = () => {
     return(
 
         <div className="footer">
-            <div>
-            <p>Produzido por <strong>Jaqueline de Almeida</strong> para a Aula III de React da Reprograma, 2021</p>
+            <div >
+                <p>Produzido por   <strong>  Jaqueline de Almeida  </strong>    para Aula de React III da Reprograma,2021.</p>
+            
+            <div className="bio">
+                <p> Apaixonada por Tecnologia. Estudo Front-End e FullStack. 
+                    Originalmente da área de Comunicação e Marketing Digital.</p>
+            </div>
         </div>
+        
             <div class="logo_link">
 
                 <a className="Link" href="https://github.com/jaquelinedealmeida" >
